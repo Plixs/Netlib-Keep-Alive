@@ -1,5 +1,6 @@
 import os
 import time
+import requests
 from playwright.sync_api import sync_playwright
 
 UZANTONOMO = os.environ.get("UZANTONOMO", "")
